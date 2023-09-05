@@ -16,6 +16,7 @@ module.exports = function(passport) {
         lastName: profile.name.familyName,
         image: profile.photos[0].value
        }
+    // console.log(profile)
 
        try {
             let user = await User.findOne({googleId: profile.id})
@@ -30,7 +31,7 @@ module.exports = function(passport) {
        }
     }
     ))
-
+////**!!**change from call back to async await or wont work
     passport.serializeUser((user,done) => {
         done(null, user.id)
         return user.id
