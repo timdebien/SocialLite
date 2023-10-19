@@ -71,7 +71,7 @@ Ensure you have the following software installed:
 - `routes/`: Routing definitions for the application.
 - `views/`: Handlebars templates for user profiles, posts, and other views.
 - `public/`: Static assets, including CSS and JavaScript files with Materialize CSS styling.
-- `uploads/`: Storage directory for uploaded images.
+- `helpers/`: Handelbars helpers.
 
 ## CRUD Operations
 
