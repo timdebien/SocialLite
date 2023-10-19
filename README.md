@@ -72,6 +72,7 @@ Ensure you have the following software installed:
 - `views/`: Handlebars templates for user profiles, posts, and other views.
 - `public/`: Static assets, including CSS and JavaScript files with Materialize CSS styling.
 - `helpers/`: Handelbars helpers.
+- `middleware/`: .
 
 ## CRUD Operations
 
