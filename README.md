@@ -101,4 +101,4 @@ SocialLite is open-source and distributed under the [MIT License](LICENSE).
 
 ---
 
-Please replace any placeholders with actual values and adapt the project structure to meet your requirements. This README serves as a basic template for your SocialLite project with CRUD features and a Handlebars-powered frontend enhanced with Materialize CSS and Font Awesome icons.
+
